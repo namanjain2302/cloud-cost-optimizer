@@ -124,6 +124,56 @@ python main.py
 These demonstrate a full successful run of the system.
 
 ---
+## 🔄 Step-by-Step Workflow
+
+1. **Project Description Input**  
+   The user launches the CLI and enters a natural language description of the cloud-based project.  
+   This description is saved locally in `project_description.txt`.
+
+2. **Project Profile Extraction**  
+   The system sends the project description to a Large Language Model (LLM) via the Hugging Face Inference API.  
+   The LLM extracts structured project details such as:
+   - Project name  
+   - Monthly budget  
+   - Technology stack  
+   - Non-functional requirements  
+
+   The extracted data is validated and stored in `project_profile.json`.  
+   The process fails clearly if the LLM response is malformed or incomplete.
+
+3. **Synthetic Billing Generation**  
+   Using the extracted project profile, the system generates synthetic cloud billing data.  
+   The billing data:
+   - Contains 6–15 records  
+   - Covers compute, database, storage, networking, and monitoring services  
+
+   The generated billing data is saved to `mock_billing.json`.
+
+4. **Cost Analysis**  
+   The system performs local cost aggregation on the synthetic billing data.  
+   It calculates:
+   - Total monthly cost  
+   - Budget variance  
+   - Per-service cost distribution  
+
+5. **Cost Optimization & Recommendations**  
+   The aggregated cost data and project profile are analyzed by the LLM to generate optimization recommendations.  
+   Each recommendation includes:
+   - Description of the cost issue  
+   - Recommended optimization action  
+   - Estimated monthly savings  
+   - Associated risks  
+   - Open-source alternatives  
+   - Multi-cloud alternatives  
+
+   The final recommendations are stored in `cost_optimization_report.json`.
+
+6. **CLI Visualization & Export**  
+   The CLI allows the user to:
+   - View generated recommendations  
+   - Inspect intermediate JSON files  
+   - Export the final report for external use  
+
 
 
 ## 🤖 AI Usage & Academic Integrity
