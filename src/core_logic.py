@@ -47,7 +47,7 @@ def generate_mock_billing(profile_json: dict) -> list:
     )
 
     user_prompt = f"""
-Generate EXACTLY 6 billing records.
+Generate BETWEEN 6 AND 15 billing records.
 
 Tech Stack: {tech_stack}
 Monthly Budget: {budget}
