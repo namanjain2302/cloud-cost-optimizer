@@ -1,0 +1,19 @@
+{
+    "name": "Live Video Streaming Platform",
+    "budget_inr_per_month": 60000,
+    "description": "We are building a live video streaming platform similar to Twitch.",
+    "tech_stack": {
+        "backend": [
+            "Go (Golang) microservices",
+            "Apache Kafka",
+            "Cassandra"
+        ],
+        "infrastructure": [
+            "Google Kubernetes Engine (GKE)",
+            "GCP Mumbai region"
+        ]
+    },
+    "non_functional_requirements": [
+        "CDN for video delivery"
+    ]
+}
