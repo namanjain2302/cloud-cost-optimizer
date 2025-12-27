@@ -6,20 +6,11 @@ from typing import Dict, Any
 
 load_dotenv()
 
-# ======================================================
-# Hugging Face Router Configuration
-# ======================================================
-
 ROUTER_URL = "https://router.huggingface.co/v1/chat/completions"
 
-# Only include models you KNOW are enabled
 MODELS_TO_TRY = [
     "Qwen/Qwen2.5-7B-Instruct"
 ]
-
-# ======================================================
-# Auth
-# ======================================================
 
 def get_headers() -> Dict[str, str]:
     token = os.getenv("HF_API_TOKEN")
@@ -57,10 +48,6 @@ def extract_json(text: str, expected_type: str) -> str:
         return text
     except json.JSONDecodeError:
         raise ValueError("Invalid JSON structure")
-
-# ======================================================
-# CORE QUERY FUNCTION
-# ======================================================
 
 def query_llm(
     system_prompt: str,
@@ -136,21 +123,3 @@ def query_llm(
                 continue
 
     raise RuntimeError("All models failed after retries")
-
-# ======================================================
-# LOCAL TEST
-# ======================================================
-
-if __name__ == "__main__":
-    try:
-        result = query_llm(
-            system_prompt="Generate a simple project profile.",
-            user_prompt="Create a JSON object with name and budget.",
-            expected_type="object"
-        )
-
-        print("\nParsed JSON:")
-        print(json.dumps(result, indent=2))
-
-    except Exception as err:
-        print(f"ERROR: {err}")
