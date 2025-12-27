@@ -51,31 +51,21 @@ LLM → Optimization Report
 ---
 
 ## 📁 Project Structure
+### Project Directory Structure
 
+- **cloud-cost-optimizer/**
+  - **src/**
+    - `core_logic.py` — Core business logic
+    - `llm_client.py` — LLM interaction & validation
+  - `main.py` — CLI entry point
+  - `project_description.txt` — User-provided project description
+  - `project_profile.json` — Extracted project profile
+  - `mock_billing.json` — Synthetic billing data
+  - `cost_optimization_report.json` — Final optimization report
+  - `requirements.txt` — Python dependencies
+  - `.env.example` — Environment variable template
+  - `README.md` — Project documentation
 
-cloud-cost-optimizer/
-
-├── src/
-
-│ ├── core_logic.py
-
-│ └── llm_client.py
-
-├── main.py
-
-├── project_description.txt
-
-├── project_profile.json
-
-├── mock_billing.json
-
-├── cost_optimization_report.json
-
-├── requirements.txt
-
-├── .env.example
-
-└── README.md
 
 
 
@@ -158,7 +148,7 @@ All AI-assisted suggestions were **selectively applied, adapted, and validated**
 ---
 
 
-### 🧠 Tools Used (AI Disclosure)
+### 🧰 Technologies Used
 
 
 - Hugging Face Inference API (LLM-based JSON extraction and analysis)
