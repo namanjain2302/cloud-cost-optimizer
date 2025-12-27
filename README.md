@@ -26,15 +26,25 @@ and architectural cost analysis.
 ## 🏗️ Architecture Overview
 
 User (CLI)
+
 ↓
+
 Project Description (Text)
+
 ↓
+
 LLM → Project Profile (JSON)
+
 ↓
+
 LLM → Synthetic Billing Data
+
 ↓
+
 Local Cost Aggregation
+
 ↓
+
 LLM → Optimization Report
 
 
