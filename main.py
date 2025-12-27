@@ -149,7 +149,7 @@ def main_menu():
         console.print("6. [bold]Exit[/bold]")
 
         
-        choice = IntPrompt.ask("\nSelect an option", choices=["1", "2", "3", "4", "5"])
+        choice = IntPrompt.ask("\nSelect an option", choices=["1", "2", "3", "4", "5", "6"])
         
         if choice == 1:
             input_description()
@@ -175,4 +175,5 @@ def main_menu():
             break
 
 if __name__ == "__main__":
+
     main_menu()
