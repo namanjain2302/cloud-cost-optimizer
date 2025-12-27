@@ -2,61 +2,151 @@
     {
         "month": "2023-09",
         "service": "Go (Golang) microservices",
-        "resource_id": "microservice1",
-        "region": "global",
+        "resource_id": "rs-12345",
+        "region": "GCP Mumbai region",
         "usage_quantity": 100,
         "unit": "hours",
         "cost_inr": 15000,
-        "desc": "Monthly usage of Go (Golang) microservices"
+        "desc": "Monthly usage of Go (Golang) microservices in GCP Mumbai region"
     },
     {
         "month": "2023-09",
         "service": "Apache Kafka",
-        "resource_id": "kafka1",
-        "region": "global",
+        "resource_id": "rs-67890",
+        "region": "GCP Mumbai region",
         "usage_quantity": 50,
         "unit": "hours",
         "cost_inr": 7500,
-        "desc": "Monthly usage of Apache Kafka"
+        "desc": "Monthly usage of Apache Kafka in GCP Mumbai region"
     },
     {
         "month": "2023-09",
         "service": "Cassandra",
-        "resource_id": "cassandra1",
-        "region": "global",
+        "resource_id": "rs-24680",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 75,
+        "unit": "hours",
+        "cost_inr": 11250,
+        "desc": "Monthly usage of Cassandra in GCP Mumbai region"
+    },
+    {
+        "month": "2023-10",
+        "service": "Google Kubernetes Engine (GKE)",
+        "resource_id": "rs-34567",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 120,
+        "unit": "hours",
+        "cost_inr": 18000,
+        "desc": "Monthly usage of Google Kubernetes Engine (GKE) in GCP Mumbai region"
+    },
+    {
+        "month": "2023-10",
+        "service": "Apache Kafka",
+        "resource_id": "rs-78901",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 60,
+        "unit": "hours",
+        "cost_inr": 9000,
+        "desc": "Monthly usage of Apache Kafka in GCP Mumbai region"
+    },
+    {
+        "month": "2023-10",
+        "service": "Cassandra",
+        "resource_id": "rs-45678",
+        "region": "GCP Mumbai region",
         "usage_quantity": 80,
         "unit": "hours",
         "cost_inr": 12000,
-        "desc": "Monthly usage of Cassandra"
+        "desc": "Monthly usage of Cassandra in GCP Mumbai region"
     },
     {
-        "month": "2023-09",
-        "service": "Google Kubernetes Engine (GKE)",
-        "resource_id": "gke1",
-        "region": "Mumbai",
-        "usage_quantity": 150,
+        "month": "2023-11",
+        "service": "Go (Golang) microservices",
+        "resource_id": "rs-56789",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 110,
         "unit": "hours",
-        "cost_inr": 22500,
-        "desc": "Monthly usage of Google Kubernetes Engine (GKE) in Mumbai"
+        "cost_inr": 16500,
+        "desc": "Monthly usage of Go (Golang) microservices in GCP Mumbai region"
     },
     {
-        "month": "2023-09",
-        "service": "Google Kubernetes Engine (GKE)",
-        "resource_id": "gke2",
-        "region": "Mumbai",
-        "usage_quantity": 100,
+        "month": "2023-11",
+        "service": "Apache Kafka",
+        "resource_id": "rs-01234",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 55,
         "unit": "hours",
-        "cost_inr": 15000,
-        "desc": "Monthly usage of Google Kubernetes Engine (GKE) in Mumbai"
+        "cost_inr": 8250,
+        "desc": "Monthly usage of Apache Kafka in GCP Mumbai region"
     },
     {
-        "month": "2023-09",
-        "service": "GCP Mumbai region",
-        "resource_id": "mumbai1",
-        "region": "Mumbai",
-        "usage_quantity": 200,
-        "unit": "GB",
-        "cost_inr": 10000,
-        "desc": "Monthly usage of GCP Mumbai region"
+        "month": "2023-11",
+        "service": "Cassandra",
+        "resource_id": "rs-67892",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 70,
+        "unit": "hours",
+        "cost_inr": 10500,
+        "desc": "Monthly usage of Cassandra in GCP Mumbai region"
+    },
+    {
+        "month": "2023-12",
+        "service": "Google Kubernetes Engine (GKE)",
+        "resource_id": "rs-34568",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 130,
+        "unit": "hours",
+        "cost_inr": 20250,
+        "desc": "Monthly usage of Google Kubernetes Engine (GKE) in GCP Mumbai region"
+    },
+    {
+        "month": "2023-12",
+        "service": "Apache Kafka",
+        "resource_id": "rs-78902",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 65,
+        "unit": "hours",
+        "cost_inr": 9750,
+        "desc": "Monthly usage of Apache Kafka in GCP Mumbai region"
+    },
+    {
+        "month": "2023-12",
+        "service": "Cassandra",
+        "resource_id": "rs-45679",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 85,
+        "unit": "hours",
+        "cost_inr": 13125,
+        "desc": "Monthly usage of Cassandra in GCP Mumbai region"
+    },
+    {
+        "month": "2024-01",
+        "service": "Go (Golang) microservices",
+        "resource_id": "rs-56780",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 105,
+        "unit": "hours",
+        "cost_inr": 15750,
+        "desc": "Monthly usage of Go (Golang) microservices in GCP Mumbai region"
+    },
+    {
+        "month": "2024-01",
+        "service": "Apache Kafka",
+        "resource_id": "rs-01235",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 58,
+        "unit": "hours",
+        "cost_inr": 8700,
+        "desc": "Monthly usage of Apache Kafka in GCP Mumbai region"
+    },
+    {
+        "month": "2024-01",
+        "service": "Cassandra",
+        "resource_id": "rs-67893",
+        "region": "GCP Mumbai region",
+        "usage_quantity": 78,
+        "unit": "hours",
+        "cost_inr": 11700,
+        "desc": "Monthly usage of Cassandra in GCP Mumbai region"
     }
 ]
