@@ -12,7 +12,7 @@ and architectural cost analysis.
 
 - Natural language project description input
 - AI-based project profile extraction
-- Synthetic cloud billing generation (12–20 records)
+- Synthetic cloud billing generation (6–15 records)
 - Cost analysis with budget comparison
 - Optimization recommendations with:
   - Estimated savings
