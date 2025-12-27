@@ -157,10 +157,13 @@ All AI-assisted suggestions were **selectively applied, adapted, and validated**
 
 ---
 
+## 🎥 Demo Video
+
+🔗 [View Demo Video](https://drive.google.com/file/d/1-w8JHGAf4u0-Id6kpFQLzBmMGpSig3RB/view?usp=sharing)
+
+---
 
 ### ⚠️ Disclaimer
-
-
 
 This tool generates synthetic billing data for educational and planning purposes.
 It is not connected to real cloud billing APIs.
